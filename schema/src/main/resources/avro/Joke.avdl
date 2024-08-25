@@ -1,0 +1,10 @@
+namespace ru.practicum.kafka.dto;
+
+schema JokeDto;
+
+record JokeDto {
+	int id;
+	string category;
+	string setup;
+	string delivery;
+}

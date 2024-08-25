@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ru.practicum</groupId>
+    <artifactId>kafka-simple</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>kafka-simple</name>
+    <description>Practicum kafka project</description>
+
+    <modules>
+        <module>producer</module>
+        <module>consumer</module>
+        <module>schema</module>
+    </modules>
+
+    <properties>
+        <avro.version>1.12.0</avro.version>
+        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <lombok.version>1.18.34</lombok.version>
+        <kafka-clients.version>3.7.1</kafka-clients.version>
+    </properties>
+</project>
